@@ -8,6 +8,7 @@ import { SoccerBall } from "./ball.js";
 import { player } from "./player.js";
 import { PineTree } from "./trees.js";
 import { building1 } from "./house.js";
+import { player2 } from "./player2.js";
 /********************************************************************** */
 /** EXAMPLES - student should not use this! It is just for reference    */
 /** you may use the sample objects, but not the sample layout           */
@@ -19,7 +20,12 @@ export function main(world)
   world.add(new field(-5, 1, 0));
   world.add(new SoccerGoal(24,1,0));
   world.add(new SoccerGoal(-34,1,0));
-  world.add(new player(world));
+  world.add(new player(0,2.5,5));
+  world.add(new player(0,2.5,0));
+  world.add(new player(0,2.5,-5));
+  world.add(new player2(-7,2.5,5));
+  world.add(new player2(-7,2.5,0));
+  world.add(new player2(-7,2.5,-5));
   let soccerBall = new SoccerBall(-5,1.6,0);
   world.add(soccerBall);
 

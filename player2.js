@@ -1,10 +1,9 @@
-import * as T from "./libs/CS559-Three/build/three.module.js";
-import { GrWorld } from "./libs/CS559-Framework/GrWorld.js";
 import { GrObject } from "./libs/CS559-Framework/GrObject.js";
 import * as Loaders from "./libs/CS559-Framework/loaders.js";
+import * as T from "./libs/CS559-Three/build/three.module.js";
+import { GrWorld } from "./libs/CS559-Framework/GrWorld.js";
 
-
-export class player extends GrObject
+export class player2 extends GrObject
 {
     constructor(x,y,z)
     {
@@ -15,7 +14,7 @@ export class player extends GrObject
 
         let headmaterial = new T.MeshBasicMaterial({map: texture});
         
-        let material = new T.MeshBasicMaterial({color: 'blue'});
+        let material = new T.MeshBasicMaterial({color: 'red'});
 
         let head = new T.SphereGeometry(0.5);
         let body = new T.CylinderGeometry(0.1, 0.1, 2);
