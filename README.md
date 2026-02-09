@@ -6,4 +6,5 @@ Below are a screenshot and a video demo.
 ![Stadium View](demo/canvas.png)
 
 ## Video Demo
-[Watch the video demo](demo/canvas.mp4)
+
+![Video Demo](demo/canvas.mp4)
