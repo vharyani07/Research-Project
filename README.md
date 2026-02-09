@@ -7,4 +7,7 @@ Below are a screenshot and a video demo.
 
 ## Video Demo
 
-<video src="demo/canvas.mp4" controls style="max-width: 100%;"></video>
+
+https://github.com/user-attachments/assets/b842a1c0-affb-47dd-94c7-4e1640d018e8
+
+
