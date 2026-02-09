@@ -3,7 +3,7 @@ This research project represents a simple, dynamic 3D model of a soccer match us
 Below are a screenshot and a video demo.
 
 ## Screenshot
-![Stadium View](demo/screenshot.png)
+![Stadium View](demo/canvas.png)
 
 ## Video Demo
-[Watch the video demo](demo/demo.mp4)
+[Watch the video demo](demo/canvas.mp4)
