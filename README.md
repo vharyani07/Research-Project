@@ -7,4 +7,4 @@ Below are a screenshot and a video demo.
 
 ## Video Demo
 
-![Video Demo](demo/canvas.mp4)
+<video src="demo/canvas.mp4" controls style="max-width: 100%;"></video>
